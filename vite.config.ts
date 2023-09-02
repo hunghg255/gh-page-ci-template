@@ -52,5 +52,6 @@ export default defineConfig(({ mode }) => {
     preview: {
       port: 3000,
     },
+    base: 'gh-page-ci-template',
   };
 });
